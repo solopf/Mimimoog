@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.box{
+	width: 100%;
+	height: 100%;
+	background: url(../img/img-6fd8ee5d0054e99ca228339130ea6fb9.jpg) no-repeat center center;
+	background-size: 100% 100%;
+	opacity: 0.8;
+}
+
+.name h1{
+	text-align: center;
+	color: lightgrey;
+	text-shadow: 3px 2px green;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.name2 h1{
+	text-align: center;
+	color: lightgrey;
+	text-shadow: 3px 2px green;	
+	padding-top: 25%;
+	padding-bottom: 3%;
+}
+
+.box01{
+	width: 20%;
+	height: 40%;
+	float: left;
+	background-color: limegreen;
+	margin-left: 6.5%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.box02{
+	width: 20%;
+	height: 40%;
+	float: left;
+	background-color: limegreen;
+	margin-left: 13.5%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.box03{
+	width: 20%;
+	height: 40%;
+	float: right;
+	background-color: limegreen;
+	margin-right: 6.5%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+.box04{
+	width: 87%;
+	height: 15%;
+	float: left;
+	background-color: limegreen;
+	margin-left: 6.5%;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+p{
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+
+span{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 6%;
+}
+
+#trisw,#sawsw,#squsw{
+	display: block;
+	margin: 0 auto;
+	background-color: seagreen;
+	width: 100px;
+	height: 30px;
+	margin-top: 10%;
+	margin-bottom: 6%;
+}
+
+#trifreq,#triamp,#sawamp,#sawfreq,#squamp,#squfreq{
+	display: block;
+	margin: 0 auto;
+	/* width: 200px; */
+	height: 20px;
+	margin-top: 6%;
+	margin-bottom: 10%;
+}
+
+#filterfreq{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	margin-top: 2%;
+}
+
+.box04 p{
+	margin-top: 2%;
+}
